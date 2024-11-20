@@ -1,0 +1,91 @@
+body {
+    background-color: gray;
+    height: 3000px;
+}
+.shapka {
+    width: 101%;
+    background-color: aliceblue;
+    height: 80px;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 25px;
+    font-family: Impact, Arial Black, 'Tahoma', sans-serif;
+    position: fixed;
+}
+
+.logo {
+    position: relative;
+    top: 2px;
+}
+.vid a {
+    color: white;
+    background-color: rgb(41, 40, 40);
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.vid a:hover {
+    background-color: darkgray; 
+}
+.pravo {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.pravo > div {
+    margin: 5px;
+}
+.my-button {
+    display:flex; 
+    padding: 10px; 
+    color: black; 
+    text-align: center; 
+    text-decoration: none; 
+    border-radius: 50px; 
+    transition: background-color 0.3s; 
+  }
+
+.text1{
+    width: 600px;
+    height: 20px;
+    margin-top: 165px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.Footbal { 
+    display: flex;
+}
+
+.text2{
+    width: 600px;
+    height: 20px;
+    display: flex;
+    position: relative;
+    left: 290px;
+    top: -220px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.Boxes{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: aliceblue;
+    width: 99%;
+}
+.left_image{
+    display: flex;
+    justify-content: left;
+    height: 455px;
+    width: 500px;
+    position: relative;
+    left: 10px;
+
+}

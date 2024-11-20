@@ -1,0 +1,58 @@
+.tky {
+    background-image: url(https://i0.wp.com/danayao.com/wp-content/uploads/2024/04/CAM01780-1.jpg);
+    background-position: center;
+    text-align: center;
+    width: 95%;
+    margin: 20px;
+
+}
+
+.verh {
+    margin: 100px;
+    background-color: red;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+flex-wrap: nowrap;
+justify-content: space-between;
+align-items: center;
+width: 95%;
+    padding: 20px; 
+    box-sizing: border-box;
+margin-left: 20px;
+position: relative;
+bottom: 5px;
+}
+    
+figure {
+text-align: center;
+background-color: #deb887;
+margin: 10px;
+padding: 5px;
+
+}
+
+body {
+    background-color: lightpink;
+}
+.niz {
+    margin: 100px;
+    background-color: red;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+flex-wrap: nowrap;
+justify-content: space-between;
+align-items: center;
+    padding: 20px; 
+    box-sizing: border-box;
+margin-left: 20px;
+width: 95%;
+position: relative;
+top: 5px;
+}
+p {
+    height: 100px;
+    font-size: 70px;
+
+}

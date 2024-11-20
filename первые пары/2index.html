@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FRONT LESSON 2</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <p id="privet" >Lesson 2 16.10.2024</p> 
+  <p id="kdcd" ><a href="https://www.starwars.com/games-apps">Play STAR WARS.com</a></p>
+  <form>
+    <div class="perv"> 
+    First name: <br />
+    <input type="text" name="firstname" placeholder="Enter name" /> <br />
+    Email: <br />
+    <input type="email" placeholder="Enter email" /> <br />
+    Character name: <br />
+    <input type="text" placeholder="Enter nickname" /> <br />
+  </div>
+   <p>Choose your side:</p>
+    <p style="color: rgb(141, 225, 141);"><input type="radio" value="" />Jedi <img src="https://cdn0.iconfinder.com/data/icons/famous-character-vol-1-colored/48/JD-37-512.png" width="90" height="70" alt="Jedi orden" /></p>
+    <p style="color: rgb(113, 3, 25);"><input type="radio" />Sith <img src="https://png.pngtree.com/png-vector/20240603/ourmid/pngtree-darth-vader-helmet-on-black-background-png-image_12615089.png" width="50" height="50" alt="Sith orden" /></p>
+    <p id="hello" style="color: rgb(65, 117, 231) ;"><input type="radio" />Bounty Hunter <img src="https://cdn3.iconfinder.com/data/icons/star-wars-color/175/jango-fett-512.png" width="50" height="50" alt="Sith orden" /></p>
+    Password:
+    <input type="password" />
+    <input type="submit" value="Send" /> <br /> 
+    I agree intergalactic laws
+    <input type="checkbox" /><br />
+  </form>  
+  <br /> 
+  <br /> 
+  <br /> 
+  <form>
+    <form action="/submit" method="post">
+        <label for="name">Имя:</label> <br /> 
+        <input type="text" id="name" name="name" placeholder="Введите ваше имя"> <br /> 
+        
+        <label for="email">Email:</label> <br /> 
+        <input type="email" id="email" name="email" placeholder="Введите ваш email"> <br /> 
+        
+        <label for="password">Пароль:</label>  <br /> 
+        <input type="password" id="password" name="password" placeholder="Введите ваш пароль"> <br /> 
+        <br />
+        <label for="gender">Пол:</label>
+        <input type="radio" id="male" name="gender" value="male"> Мужчина
+        <input type="radio" id="female" name="gender" value="female"> Женщина
+        <br /> 
+        <br /> 
+        <label for="preferences">Предпочтения:</label>
+        <select id="preferences" name="preferences">
+            <option value="news">Новости</option>
+            <option value="updates">Обновления</option>
+            <option value="offers">Специальные предложения</option>
+        </select> <br />
+        <br /> 
+        <button type="submit">Зарегистрироваться</button>
+     </form>
+
+  </form>
+</body>
+</html>
